@@ -44,7 +44,7 @@ body header section.logo img {
   height: 6vw;
 }
 body header section.logo h1 {
-  font-size: 1.5rem;
+  font-size: 2.4rem;
 }
 body header section.logo h1:hover {
   cursor: pointer;
@@ -60,7 +60,7 @@ body header nav ul {
 body header nav li a {
   color: black;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.6rem;
   transition: all 0.2s ease;
   padding-bottom: 0.2rem;
 }
@@ -90,23 +90,24 @@ body main section.background-img div.filter {
   z-index: -1;
 }
 body main section.background-img h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
   text-align: center;
 }
 body main section.info-circles {
-  height: 120vh;
+  height: 110vh;
   background-color: white;
   padding: 1.5rem 0.6rem;
 }
 body main section.info-circles h3 {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
 }
 body main section.info-circles div.circles {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 body main section.info-circles div.circles div.circle {
   display: flex;
@@ -116,8 +117,8 @@ body main section.info-circles div.circles div.circle {
   flex: 0 1 170px;
 }
 body main section.info-circles div.circles div.circle img {
-  width: 120px;
-  height: 120px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   transition: all 0.2s ease;
 }
@@ -125,8 +126,13 @@ body main section.info-circles div.circles div.circle img:hover {
   border: 2px solid rgba(152, 57, 255, 0.5);
   padding: 0.2rem;
 }
+body main section.info-circles div.circles p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
 body main section.info-circles p#A {
-  font-size: 1.2rem;
+  margin-top: 7rem;
+  font-size: 2.5rem;
   color: rgba(0, 0, 0, 0.7);
 }
 body main section.empty-container {
@@ -137,7 +143,7 @@ body main section.empty-container {
   align-items: center;
 }
 body main section.empty-container h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
 }
 body main section.google-map {
@@ -147,10 +153,10 @@ body main section.google-map {
 }
 body main h3 {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
 }
 body main p {
-  font-size: 0.6rem;
+  font-size: 1.4rem;
   margin: 1rem 0.4rem;
 }
 body main iframe {
